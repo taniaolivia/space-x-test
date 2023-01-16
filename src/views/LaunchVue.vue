@@ -10,7 +10,6 @@ const getLaunch =  async () => {
   const datas = await inject("api").get(`/launches/${route.params.idLaunch}`);
   launch.value = datas.data;
   patch.value = datas.data.links.patch;
-  console.log(datas.data)
 } 
 
 onMounted(() => {
