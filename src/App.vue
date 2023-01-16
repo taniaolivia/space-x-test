@@ -1,11 +1,12 @@
 <script setup>
-import LaunchesVue from './components/LaunchesVue.vue';
-import CapsulesVue from './components/CapsulesVue.vue';
+import NavbarVue from '@/components/NavbarVue.vue';
+import FooterVue from './components/FooterVue.vue';
 </script>
 
 <template>
   <div>
-    <launches-vue></launches-vue>
-    <capsules-vue></capsules-vue>
+    <navbar-vue></navbar-vue>
+    <router-view></router-view>
+    <footer-vue></footer-vue>
   </div>
 </template>
