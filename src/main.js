@@ -10,8 +10,6 @@ app.provide("api", axios.create({
     baseURL: "https://api.spacexdata.com/v4"
 }));
 
-app.provide("route", )
-
 app.use(router);
 
 app.mount('#app');
